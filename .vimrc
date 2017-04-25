@@ -27,5 +27,9 @@ set backspace=indent,eol,start
 
 " ()
 set showmatch
-inoremap { {}<Left>
-inoremap ( ()<Left>
+inoremap { {}
+inoremap ( ()
+inoremap [ []
+
+" file
+set noswapfile
